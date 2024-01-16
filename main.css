@@ -1,7 +1,56 @@
 .sampling {
-  font-size: 40px;
-  margin: 10px;
+  font-size: 50px;
+  color:crimson;
+  position:relative;
+  border-style:solid;
+  margin-left: 680px;
+  margin-right:80px;
+}
+p {
+  font-size:20px;
+  color: rgb(233, 184, 184);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+/* unvisited link */
+a:link {
+  
+  color:blue;
+  text-decoration:none;
+}
+/* visited link */
+a:visited {
+   color:slateblue;
+   text-decoration:none;
+  
+}
+/* mouse over link */
+a:hover {
+   color:hotpink;
+   text-decoration:underline;
+}
+.top {
+  padding: 10px;
+  width:1000px;
+  height:300px;
+  text-align:justify;
+  margin-top:30px;
+  margin-left:250px;
+}
+.history {
+  font-style: italic;
+  color:tomato;
+}
+.middle {
+  width:1000px;
+  height:300px;
+  text-align:justify;
+  margin-left:250px;
+ text-align: center;
 }
 body {
   background-color: darkslategray;
+  background-image: url('sampling.jpg');
+  background-repeat: no-repeat;
+  background-position:center top;
 }
